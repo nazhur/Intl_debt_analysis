@@ -1,11 +1,11 @@
 # International_debt_analysis
-Context
+Context: 
 The World Bank is an international financial institution that provides loans to countries of the world for capital projects. The World Bank's stated goal is the reduction of poverty. Source: https://en.wikipedia.org/wiki/World_Bank
 
-Content:
+Content: 
 This dataset contains both national and regional debt statistics captured by over 200 economic indicators. Time series data is available for those indicators from 1970 to 2015 for reporting countries.
 
-Acknowledgements:
+Acknowledgements: 
 https://bigquery.cloud.google.com/dataset/bigquery-public-data:world_bank_intl_debt
 
 https://cloud.google.com/bigquery/public-data/world-bank-international-debt
