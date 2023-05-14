@@ -26,13 +26,13 @@ order by average_debt desc;
 select country_name, indicator_name from international_debt
 WHERE debt = ( select max(debt) from international_debt Where indicator_name = 'DT');
 
-/* The most common debt indicator */
+/* 7. The most common debt indicator */
 
 select indicator_code, COUNT(indicator_code) as cnt_ic from international_debt
 group by indicator_code
 order by cnt_ic desc;
 
-/* The most common debt indicator */
+/* 8. The most common debt indicator */
 
 select country_name, indicator_code, MAX(debt) AS total_debt from international_debt
 group by country_name, indicator_code
